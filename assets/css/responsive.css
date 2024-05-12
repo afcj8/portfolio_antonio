@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+        top: 80px;
+        position: fixed;
+        right: 0;
+        text-align: right;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-items: left;
+    }
+
+    .menu a {
+        margin: 10px 4px;
+    }
+}
