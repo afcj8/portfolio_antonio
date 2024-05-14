@@ -41,7 +41,7 @@ header {
 }
 
 .logo-home {
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .menu {
@@ -54,7 +54,7 @@ header {
     text-decoration: none;
     color: #42446E;
     padding: 13px 16px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .nave:hover {
@@ -91,7 +91,7 @@ section#home {
 h2 {
     font-weight: 500;
     color: #42446E;
-    font-size: 28px;
+    font-size: 36px;
 }
 
 .nome, .logo-home {
@@ -103,19 +103,28 @@ h2 {
 .funcao {
     font-weight: 400;
     color: #42446E;
+    font-size: 26px;
 }
 
 .resumo {
     color: #42446E;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
 }
 
 .home-info button {
-    padding: 10px;
+    padding: 12px;
     cursor: pointer;
     border: none;
     border-radius: 8px;
     font-weight: 500;
-    width: 150px;
+    width: 160px;
     background: linear-gradient(315deg,#7336E4 25%,#25A2EF);
     color: #FFF;
     font-size: 18px;
@@ -127,7 +136,7 @@ a {
     text-decoration: none;
 }
 
-.home-info button:hover{
+.home-info button:hover {
     opacity: 1;
 }
 
