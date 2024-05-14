@@ -40,6 +40,10 @@ header {
     width: 100%;
 }
 
+.logo-home {
+    font-size: 28px;
+}
+
 .menu {
     display: flex;
     gap: 20px;
@@ -90,7 +94,7 @@ h2 {
     font-size: 28px;
 }
 
-.nome {
+.nome, .logo-home {
     background: linear-gradient(315deg,#7336E4 25%,#25A2EF);
     background-clip: text;
     color: transparent; 
