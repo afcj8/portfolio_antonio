@@ -12,7 +12,7 @@
     }
 
     .menu.active {
-        display: block; 
+        display: block;
     }
 
     nav {
@@ -24,5 +24,41 @@
 
     .menu a {
         margin: 10px 4px;
+    }
+
+    /* HOME */    
+
+    .funcao {
+        text-align: center;
+    }
+
+    .funcao,
+    .resumo {
+        font-size: 16px;
+    }
+
+    section#home {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .home-info {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .nome {
+        font-size: 20px;
+    }
+
+    .home-info h2 {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    .funcao, .resumo {
+        font-size: 16px;
+        margin: 8px 0 8px 0;
     }
 }
