@@ -71,7 +71,7 @@ header {
 /* HOME */
 
 section#home {
-    height: calc(100vh + 80px);
+    height: calc(100vh);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -178,13 +178,14 @@ a {
 /* SOBRE */
 
 section#sobre {
-    height: calc(100vh + 80px);
+    height: calc(100vh - 80px);
     width: 100%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    padding: 5px 20px;
 }
 
 .sobre-info {
@@ -209,7 +210,6 @@ section#sobre {
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     margin: 24px 0 10px 0;
-    box-sizing: border-box;
 }
 
 .item img {
