@@ -19,19 +19,29 @@
     .menu.active {
         display: block;
     }
-
+    
     nav {
         display: flex;
         flex-direction: column;
         justify-items: left;
         transition: all 0.3s ease;
     }
-
+    
     .menu a {
         margin: 10px 4px;
     }
-
+    
+    section {
+        flex: 2;
+    }
+    
     /* HOME */    
+    
+    section#home {
+        flex-direction: column-reverse;
+        justify-content: center;
+        flex: 1;
+    }
 
     .funcao {
         text-align: center;
@@ -40,16 +50,6 @@
     .funcao,
     .resumo {
         font-size: 16px;
-    }
-
-    section {
-        flex: 2;
-    }
-
-    section#home {
-        flex-direction: column-reverse;
-        justify-content: center;
-        flex: 1;
     }
 
     .home-info, .sobre-info {
@@ -74,7 +74,11 @@
 
     /* SOBRE */
 
-    .tecnologias {
+    section#sobre {
+        margin-top: 20px;
+    }
+
+    .tecnologias, .projs {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -82,5 +86,11 @@
     
     .item {
         width: 220px;
+    }
+
+    /* PROJETOS */
+
+    section#projetos {
+        margin-top: 150px;
     }
 }

@@ -105,7 +105,7 @@ h2 {
 }
 
 .funcao {
-    font-weight: 400;
+    font-weight: 500;
     color: #42446E;
     font-size: 28px;
 }
@@ -178,7 +178,7 @@ a {
 /* SOBRE */
 
 section#sobre {
-    height: calc(100vh - 80px);
+    height: calc(100vh + 40px);
     width: 100%;
     display: flex;
     align-items: center;
@@ -223,7 +223,7 @@ section#sobre {
     font-size: 18px;
 }
 
-/* SOBRE */
+/* PROJETOS */
 
 section#projetos {
     height: calc(100vh - 80px);
