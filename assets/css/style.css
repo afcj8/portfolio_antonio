@@ -241,6 +241,10 @@ section#projetos {
     margin-top: 12px;
 }
 
+.projetos-resumo {
+    text-align: center;
+}
+
 .projs {
     display: flex;
     flex-wrap: wrap;
@@ -250,8 +254,8 @@ section#projetos {
 .projeto {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 550px;
+    width: 300px;
+    height: 525px;
     background: #F9FAFB;
     padding: 0 12px 12px 0;
     border-radius: 10px;
@@ -260,8 +264,9 @@ section#projetos {
 }
 
 .logo-projeto img {
-    width: 350px;
+    width: 300px;
     height: 250px;
+    border-radius: 10px 10px 0 0;
 }
 
 .projeto h4 {
@@ -285,5 +290,8 @@ section#projetos {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    text-decoration: none;
+}
+
+.repositorio span {
+    color: #000;
 }
