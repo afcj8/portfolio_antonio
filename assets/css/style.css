@@ -222,3 +222,68 @@ section#sobre {
     color: #42446E;
     font-size: 18px;
 }
+
+/* SOBRE */
+
+section#projetos {
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 5px 20px;
+}
+
+.projetos-info {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.projs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+    background: #F9FAFB;
+    padding: 0 12px 12px 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    margin: 24px 0 10px 0;
+}
+
+.logo-projeto img {
+    width: 350px;
+    height: 250px;
+}
+
+.projeto h4 {
+    margin: 12px 0 12px 0;
+    color: #42446E;
+    font-size: 24px;
+    padding-left: 12px;
+}
+
+.descricao, .tech {
+    padding-left: 12px;
+    color: #666666;
+    line-height: 1.5;
+}
+
+.tech {
+    margin: 12px 0 12px 0;
+}
+
+.repositorio a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+}
