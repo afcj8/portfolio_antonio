@@ -71,7 +71,7 @@ header {
 /* HOME */
 
 section#home {
-    height: calc(100vh);
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -178,7 +178,7 @@ a {
 /* SOBRE */
 
 section#sobre {
-    height: calc(100vh + 40px);
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -226,7 +226,7 @@ section#sobre {
 /* PROJETOS */
 
 section#projetos {
-    height: calc(100vh - 80px);
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -255,17 +255,17 @@ section#projetos {
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 525px;
+    height: 475px;
     background: #F9FAFB;
     padding: 0 12px 12px 0;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-    margin: 24px 0 10px 0;
+    margin: 24px 0 0 0;
 }
 
 .logo-projeto img {
     width: 300px;
-    height: 250px;
+    height: 200px;
     border-radius: 10px 10px 0 0;
 }
 
@@ -294,4 +294,46 @@ section#projetos {
 
 .repositorio span {
     color: #000;
+}
+
+/* CONTATO */
+
+section#contato {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+  
+#contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    width: 100%;
+    padding: 5px 10px;
+}
+  
+input, textarea, button {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    border: none;
+    padding: 16px;
+    border-radius: 6px;
+    outline: none;
+    resize: none;
+}
+  
+#contato form button {
+    background: linear-gradient(315deg, #7336E4 25%, #25A2EF);
+    color: #FFF;
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+  
+#contato form button:hover{
+    opacity: 1;
 }
