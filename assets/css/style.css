@@ -337,3 +337,34 @@ input, textarea, button {
 #contato form button:hover{
     opacity: 1;
 }
+
+/* FOOTER */
+  
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #42446E;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.logo-footer {
+    color: #42446E;
+    font-size: 16px;
+}
+
+.redes-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+ 
+.redes-footer i {
+    font-size: 24px;
+    color: #42446E;
+}
