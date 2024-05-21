@@ -74,6 +74,12 @@
         margin: 8px 0 8px 0;
     }
 
+    .contatos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     /* SOBRE */
 
     section#sobre {
