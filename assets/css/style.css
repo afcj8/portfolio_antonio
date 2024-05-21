@@ -44,7 +44,8 @@ header {
     font-weight: 500;
 }
 
-.menu {
+nav ul {
+    list-style: none;
     display: flex;
     gap: 20px;
 }

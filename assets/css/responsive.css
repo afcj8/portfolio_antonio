@@ -6,38 +6,44 @@
 
     .menu-btn {
         display: block;
-    }
-
-    .menu {
-        display: none;
-        top: 80px;
-        position: fixed;
-        right: 0;
-        text-align: right;
-    }
-
-    .menu.active {
-        display: block;
+        cursor: pointer;
+        right: -35%;
     }
     
-    nav {
-        display: flex;
-        flex-direction: column;
-        justify-items: left;
+    nav ul {
+        display: block;
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background-color: #FFF;
+        text-align: center;
         transition: all 0.3s ease;
     }
     
-    .menu a {
-        margin: 10px 4px;
+    nav ul.open {
+        left: 0;
     }
-    
-    /* HOME */    
-    
+        
+    nav ul li {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .nav-list a {
+        color: #42446E;
+        text-decoration: none;
+        font-size: 18px;
+    } 
+
+    /* HOME */
+
     section#home {
         flex-direction: column-reverse;
         justify-content: center;
         min-height: calc(100vh + 160px);
-        scroll-margin-top: 80px;  
+        scroll-margin-top: 80px;
     }
 
     .home-info {
@@ -49,11 +55,12 @@
         text-align: center;
     }
 
-    .home-info, .sobre-info {
+    .home-info,
+    .sobre-info {
         width: 100%;
         padding: 10px;
     }
-    
+
     .nome {
         font-size: 22px;
     }
@@ -86,12 +93,13 @@
         scroll-margin-top: 80px;
     }
 
-    .tecnologias, .projs {
+    .tecnologias,
+    .projs {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
+
     /* PROJETOS */
 
     section#projetos {
