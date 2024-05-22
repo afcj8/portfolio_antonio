@@ -17,3 +17,32 @@ links.forEach(function (link) {
         }
     });
 });
+
+var color = "dark";
+
+function mudarTema() {
+    // Alterna a classe do body
+    document.body.classList.toggle(color);
+    
+    // Armazena o estado atual do tema no localStorage
+    if (document.body.classList.contains(color)) {
+        localStorage.setItem('theme', 'dark');
+    } else {
+        localStorage.setItem('theme', 'light');
+    }
+}
+
+function loadPage() {
+    // Recupera o tema armazenado no localStorage
+    const storedTheme = localStorage.getItem('theme');
+    
+    // Aplica o tema armazenado ao carregar a página
+    if (storedTheme === 'dark') {
+        document.body.classList.add(color);
+    } else {
+        document.body.classList.remove(color);
+    }
+}
+
+// Chama a função para carregar o tema ao carregar a página
+loadPage();

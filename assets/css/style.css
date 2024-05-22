@@ -209,7 +209,7 @@ section#sobre {
     background: #F9FAFB;
     padding: 12px 12px;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     margin: 24px 0 10px 0;
 }
 
@@ -260,7 +260,7 @@ section#projetos {
     background: #F9FAFB;
     padding: 0 12px 12px 0;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     margin: 24px 0 0 0;
 }
 
@@ -277,7 +277,8 @@ section#projetos {
     padding-left: 12px;
 }
 
-.descricao, .tech {
+.descricao,
+.tech {
     padding-left: 12px;
     color: #666666;
     line-height: 1.5;
@@ -308,7 +309,7 @@ section#contato {
     flex-direction: column;
     gap: 40px;
 }
-  
+
 #contato form {
     display: flex;
     flex-direction: column;
@@ -317,36 +318,37 @@ section#contato {
     width: 100%;
     padding: 5px 10px;
 }
-  
-input, textarea {
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+
+input,
+textarea {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     border: none;
     padding: 16px;
     border-radius: 8px;
     outline: none;
     resize: none;
 }
-  
+
 #contato form button {
     background: linear-gradient(315deg, #7336E4 25%, #25A2EF);
     color: #FFF;
     font-size: 18px;
     cursor: pointer;
     opacity: 0.9;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     border: none;
     padding: 16px;
     border-radius: 8px;
     outline: none;
     resize: none;
 }
-  
-#contato form button:hover{
+
+#contato form button:hover {
     opacity: 1;
 }
 
 /* FOOTER */
-  
+
 footer {
     padding: 20px;
     text-align: center;
@@ -372,8 +374,51 @@ footer {
     justify-content: space-between;
     width: 100px;
 }
- 
+
 .redes-footer i {
     font-size: 24px;
     color: #42446E;
+}
+
+/* DARK */
+
+.dark, .dark header {
+    background:  #1C252E;
+}
+
+.dark .nave, .menu-btn, .funcao, .resumo {
+    color: #A7A7A7;
+}
+
+.dark h2 {
+    color: #A7A7A7;
+}
+
+.dark .projeto {
+    background: #1C252E;
+    box-shadow: 2px 4px 10px 0px rgba(255, 255, 255, 0.20);
+}
+
+.dark h4 {
+    color: #A7A7A7;
+}
+
+.dark .descricao, .tech {
+    color: #A7A7A7;
+}
+
+.dark .repositorio span {
+    color: #A7A7A7;
+}
+
+.dark footer {
+    color: #A7A7A7;
+}
+
+.dark .logo-footer {
+    color: #A7A7A7;
+}
+
+.dark .redes-footer i {
+    color: #A7A7A7;
 }
