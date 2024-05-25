@@ -32,7 +32,7 @@
                         <li><a class="nave" href="#sobre">Sobre</a></li>
                         <li><a class="nave" href="#projetos">Projetos</a></li>
                         <li><a class="nave" href="#contato">Contato</a></li>
-                        <li><a class="nave"><i class="far fa-moon" onclick="mudarTema()"></i></a></li>
+                        <li><a class="nave" onclick="mudarTema()">Mudar Tema</a></li>
                     </ul>
                 </nav>
             </div>
@@ -51,17 +51,14 @@
 
                 <div class="contatos">
                     <div class="redes">
-                        <a href="https://instagram.com/antoniofcjr" target="_blank">
-                            <img width="38" height="38" src="https://img.icons8.com/fluency/48/instagram-new.png"
-                                alt="instagram-new" />
+                        <a class="ig" href="https://instagram.com/antoniofcjr" target="_blank">
+                            <i class="fa-brands fa-square-instagram"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/ant%C3%B4niojunior8/" target="_blank">
-                            <img width="38" height="38" src="https://img.icons8.com/fluency/48/linkedin.png"
-                                alt="linkedin" />
+                        <a class="linkedin" href="https://www.linkedin.com/in/ant%C3%B4niojunior8/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
                         </a>
-                        <a href="https://github.com/afcj8" target="_blank">
-                            <img width="38" height="38" src="https://img.icons8.com/windows/32/github.png"
-                                alt="github" />
+                        <a class="git" href="https://github.com/afcj8" target="_blank">
+                            <i class="fa fa-github"></i>
                         </a>
                     </div>
 
@@ -184,7 +181,7 @@
                         <div class="logo-projeto">
                             <img src="assets/imgs/image.png" alt="image">
                         </div>
-                        <h4>Título do Projeto</h4>
+                        <h4 class="titulo">Título do Projeto</h4>
                         <span class="descricao">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500s.
@@ -194,8 +191,7 @@
                         </span>
                         <div class="repositorio">
                             <a href="https://github.com/afcj8" target="_blank">
-                                <img width="38" height="38" src="https://img.icons8.com/windows/32/github.png"
-                                    alt="github" />
+                                <i class="fa fa-github"></i>
                                 <span>Repositório</span>
                             </a>
                         </div>
@@ -205,7 +201,7 @@
                         <div class="logo-projeto">
                             <img src="assets/imgs/image.png" alt="image">
                         </div>
-                        <h4>Título do Projeto</h4>
+                        <h4 class="titulo">Título do Projeto</h4>
                         <span class="descricao">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500s.
@@ -215,8 +211,7 @@
                         </span>
                         <div class="repositorio">
                             <a href="https://github.com/afcj8" target="_blank">
-                                <img width="38" height="38" src="https://img.icons8.com/windows/32/github.png"
-                                    alt="github" />
+                                <i class="fa fa-github"></i>
                                 <span>Repositório</span>
                             </a>
                         </div>
@@ -226,7 +221,7 @@
                         <div class="logo-projeto">
                             <img src="assets/imgs/image.png" alt="image">
                         </div>
-                        <h4>Título do Projeto</h4>
+                        <h4 class="titulo">Título do Projeto</h4>
                         <span class="descricao">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500s.
@@ -236,8 +231,7 @@
                         </span>
                         <div class="repositorio">
                             <a href="https://github.com/afcj8" target="_blank">
-                                <img width="38" height="38" src="https://img.icons8.com/windows/32/github.png"
-                                    alt="github" />
+                                <i class="fa fa-github"></i>
                                 <span>Repositório</span>
                             </a>
                         </div>
@@ -251,8 +245,8 @@
         <section id="contato">
             <h2>Contato</h2>
             <form>
-                <input type="text" placeholder="Digite seu nome" />
-                <input type="email" placeholder="Digite seu e-mail" />
+                <input type="text" placeholder="Digite seu nome" required />
+                <input type="email" placeholder="Digite seu e-mail" required />
                 <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
                 <button>Enviar</button>
             </form>

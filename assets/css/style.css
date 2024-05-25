@@ -33,8 +33,8 @@ header {
     position: fixed;
     top: 0;
     z-index: 999;
-    background-color: #FFF;
     box-shadow: 0 1px 0 #F9FAFB;
+    background: #fff;
     max-width: 1120px;
     width: 100%;
 }
@@ -53,7 +53,7 @@ nav ul {
 .nave {
     cursor: pointer;
     text-decoration: none;
-    color: #42446E;
+    color: #666666;
     padding: 13px 16px;
     font-size: 16px;
 }
@@ -67,7 +67,7 @@ nav ul {
 .menu-btn {
     display: none;
     cursor: pointer;
-    color: #42446E;
+    color: #666666;
 }
 
 /* HOME */
@@ -102,7 +102,7 @@ h2 {
 
 .nome,
 .logo-home {
-    background: linear-gradient(315deg, #7336E4 25%, #25A2EF);
+    background: linear-gradient(315deg, #742DF6 25%, #25A2EF);
     background-clip: text;
     color: transparent;
 }
@@ -114,15 +114,33 @@ h2 {
 }
 
 .resumo {
-    color: #42446E;
+    color: #666666;
     font-size: 18px;
     line-height: 1.5;
 }
 
 .redes {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 160px;
+}
+
+.redes i {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.redes .ig {
+    color: #ee2a7b;
+}
+
+.redes .linkedin {
+    color: #0A66C2;
+}
+
+.redes .git {
+    color: #000;
 }
 
 .home-info button {
@@ -132,7 +150,7 @@ h2 {
     border-radius: 8px;
     font-weight: 500;
     width: 160px;
-    background: linear-gradient(315deg, #7336E4 25%, #25A2EF);
+    background: linear-gradient(315deg, #742DF6 25%, #25A2EF);
     font-size: 18px;
     opacity: 0.9;
 }
@@ -179,7 +197,7 @@ a {
 /* SOBRE */
 
 section#sobre {
-    min-height: 100vh;
+    min-height: calc(100vh + 80px);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -220,14 +238,13 @@ section#sobre {
 
 .item h4 {
     margin-left: 12px;
-    color: #42446E;
     font-size: 16px;
 }
 
 /* PROJETOS */
 
 section#projetos {
-    min-height: calc(100vh + 80px);
+    min-height: calc(100vh + 120px);
     width: 100%;
     display: flex;
     align-items: center;
@@ -272,7 +289,6 @@ section#projetos {
 
 .projeto h4 {
     margin: 12px 0 12px 0;
-    color: #42446E;
     font-size: 22px;
     padding-left: 12px;
 }
@@ -292,6 +308,13 @@ section#projetos {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-top: 6px;
+}
+
+.repositorio i {
+    font-size: 26px;
+    color: #000;
+    margin-right: 6px;
 }
 
 .repositorio span {
@@ -330,7 +353,7 @@ textarea {
 }
 
 #contato form button {
-    background: linear-gradient(315deg, #7336E4 25%, #25A2EF);
+    background: linear-gradient(315deg, #742DF6 25%, #25A2EF);
     color: #FFF;
     font-size: 18px;
     cursor: pointer;
@@ -383,32 +406,72 @@ footer {
 /* DARK */
 
 .dark, .dark header {
-    background:  #1C252E;
+    background:  #191919;
 }
 
-.dark .nave, .menu-btn, .funcao, .resumo {
+.dark header {
+    box-shadow: 0 1px 0 #A7A7A7;
+}
+
+.dark .menu-btn {
     color: #A7A7A7;
+}
+
+.dark .open {
+    background:  #191919;
+}
+
+.dark .nave {
+    color: #A7A7A7;
+} 
+
+.dark .nave:hover {
+    background-color: #42446E;
 }
 
 .dark h2 {
+    color: #D9D9D9;
+}
+
+.dark .funcao {
+    color: #D9D9D9;
+}
+
+.dark .resumo {
     color: #A7A7A7;
+}
+
+.dark .redes .git {
+    color: #fff;
+}
+
+.dark .perfil img {
+    box-shadow: 0 10px 10px #A7A7A7;
+}
+
+.dark .item {
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
 }
 
 .dark .projeto {
-    background: #1C252E;
-    box-shadow: 2px 4px 10px 0px rgba(255, 255, 255, 0.20);
+    background: #363636;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
 }
 
-.dark h4 {
+.dark .titulo {
+    color: #D9D9D9;
+}
+
+.dark .descricao, .dark .tech {
     color: #A7A7A7;
 }
 
-.dark .descricao, .tech {
-    color: #A7A7A7;
+.dark .repositorio i {
+    color: #fff;
 }
 
 .dark .repositorio span {
-    color: #A7A7A7;
+    color: #fff;
 }
 
 .dark footer {
