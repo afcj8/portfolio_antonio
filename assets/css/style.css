@@ -197,7 +197,7 @@ a {
 /* SOBRE */
 
 section#sobre {
-    min-height: calc(100vh + 80px);
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -244,7 +244,7 @@ section#sobre {
 /* PROJETOS */
 
 section#projetos {
-    min-height: calc(100vh + 120px);
+    min-height: calc(100vh + 80px);
     width: 100%;
     display: flex;
     align-items: center;
