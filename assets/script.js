@@ -1,5 +1,8 @@
+// NAVBAR
+
 var ul = document.querySelector('.nav-list ul');
 var menuBtn = document.querySelector('.menu-btn i');
+var links = document.querySelectorAll('.nav-list .nave');
 
 function menuShow() {
     if (ul.classList.contains('open')) {
@@ -9,7 +12,6 @@ function menuShow() {
     }
 }
 
-var links = document.querySelectorAll('.nav-list .nave');
 links.forEach(function (link) {
     link.addEventListener('click', function () {
         if (ul.classList.contains('open')) {
@@ -18,13 +20,13 @@ links.forEach(function (link) {
     });
 });
 
+// MUDAR TEMA
+
 var color = "dark";
 
 function mudarTema() {
-    // Alterna a classe do body
     document.body.classList.toggle(color);
     
-    // Armazena o estado atual do tema no localStorage
     if (document.body.classList.contains(color)) {
         localStorage.setItem('theme', 'dark');
     } else {
@@ -33,10 +35,8 @@ function mudarTema() {
 }
 
 function loadPage() {
-    // Recupera o tema armazenado no localStorage
     const storedTheme = localStorage.getItem('theme');
     
-    // Aplica o tema armazenado ao carregar a página
     if (storedTheme === 'dark') {
         document.body.classList.add(color);
     } else {
@@ -44,5 +44,4 @@ function loadPage() {
     }
 }
 
-// Chama a função para carregar o tema ao carregar a página
 loadPage();
