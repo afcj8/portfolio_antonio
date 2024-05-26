@@ -241,11 +241,16 @@
 
         <section id="contato">
             <h2>Contato</h2>
-            <form>
-                <input type="text" placeholder="Digite seu nome" required />
-                <input type="email" placeholder="Digite seu e-mail" required />
-                <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-                <button>Enviar</button>
+            <form action="https://formsubmit.co/contatoantoniojunior8@gmail.com" method="POST">
+                <input type="text" name="Nome" placeholder="Digite seu nome" required />
+                <input type="email" name="E-mail" placeholder="Digite seu e-mail" required />
+                <textarea cols="30" rows="10" name="Mensagem" placeholder="Digite sua mensagem"></textarea>
+                <button type="submit">Enviar</button>
+
+                <input type="hidden" name="_subject" value="Novo Contato!">
+                <input type="hidden" name="_next" value="https://portfolio-antonio-ten.vercel.app/">
+                <input type="text" name="_honey" style="display: none;">
+                <input type="hidden" name="_captcha" value="false">
             </form>
         </section>
 
