@@ -306,7 +306,8 @@ section#projetos {
 .projeto {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    justify-content: space-between;
+    width: 325px;
     height: 500px;
     background: #F9FAFB;
     padding: 0 12px 12px 0;
@@ -316,7 +317,7 @@ section#projetos {
 }
 
 .logo-projeto img {
-    width: 300px;
+    width: 325px;
     height: 200px;
     border-radius: 8px 8px 0 0;
 }
@@ -342,7 +343,6 @@ section#projetos {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 6px;
 }
 
 .repositorio i {
