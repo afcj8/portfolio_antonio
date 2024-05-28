@@ -1,7 +1,7 @@
 <h1>🧑🏻‍💻 Portfólio</h1>
 
 <h2>⚡ Projeto</h2>
-Bem-vindo ao repositório do meu portfólio web! Este projeto foi desenvolvido para apresentar minhas habilidades, experiências e interesses no campo da tecnologia e do desenvolvimento de sistemas. Você pode conferir meu portfólio online através <a href="https://portfolio-antonio-ten.vercel.app/">deste link</a>.
+Bem-vindo ao repositório do meu portfólio web! Este projeto foi desenvolvido para apresentar minhas habilidades, experiências e interesses no campo da tecnologia e do desenvolvimento de sistemas. Você pode conferir meu portfólio online através <a href="https://portfolio-antonio-ten.vercel.app/">deste link.</a>
 
 ## Sobre Mim
 Sou um entusiasta da tecnologia apaixonado por desenvolvimento web e inteligência artificial. Minhas principais áreas de interesse incluem aprendizado de máquina e a aplicação prática de algoritmos em projetos do mundo real. Estou constantemente buscando aprender e crescer no vasto universo da tecnologia, sempre ansioso por desafios que me permitam expandir meus horizontes e aprimorar minhas habilidades.
@@ -40,12 +40,12 @@ Desenvolvimento de um sistema simples para consultar CEP's. Principais caracter�
 
 <h2>✍🏻 Formulário de Contato</h2>
 
-Além de informações sobre mim e meus projetos, você encontrará um formulário de contato que permite que você entre em contato comigo diretamente através do site.
+Além de informações sobre mim e meus projetos, o portfólio possui um formulário que permite contato direto comigo através do site, enviando as mensagens para meu e-mail via FormSubmit.
 
 <h2>🚀 Tecnologias Utilizadas</h2>
 
-- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [FormSubmit](https://formsubmit.co/)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Vercel](https://vercel.com/)
