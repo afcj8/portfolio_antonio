@@ -17,7 +17,7 @@ Desenvolvimento de um sistema simples de gerenciamento de tarefas. Principais ca
 - Marcar como Concluída: Permite ao usuário marcar tarefas como concluídas, alterando o estilo da tarefa para indicar seu status.
 - Armazenamento Local: As tarefas são salvas no local storage do navegador, permitindo que a lista de tarefas persista entre sessões.
 
-[Link para o Repositório](https://github.com/afcj8/to-do)
+[Link para o Repositório](https://github.com/afcj8/to_do)
 
 ### GAP
 
