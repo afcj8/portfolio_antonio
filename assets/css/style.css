@@ -55,7 +55,7 @@ nav ul {
     text-decoration: none;
     color: #666666;
     padding: 13px 16px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .nave:hover {
@@ -91,11 +91,11 @@ section#home {
 h2 {
     font-weight: 500;
     color: #42446E;
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .nome {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 700;
 }
 
@@ -110,7 +110,7 @@ h2 {
     display: block;
     font-weight: 700;
     color: #42446E;
-    font-size: 26px;
+    font-size: 22px;
     white-space: nowrap;
     overflow: hidden;
     width: 0ch;
@@ -141,8 +141,13 @@ h2 {
 
 .resumo {
     color: #666666;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
+}
+
+.resumo a {
+    color: #742DF6;
+    text-decoration: none;
 }
 
 .redes {
@@ -183,6 +188,7 @@ h2 {
 
 a {
     text-decoration: none;
+    font-size: 16px;
 }
 
 .home-info button:hover {
@@ -267,7 +273,7 @@ section#sobre {
 
 .item h4 {
     margin-left: 12px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .tecnologias .item.in-view {
@@ -295,6 +301,7 @@ section#projetos {
 
 .projetos-resumo {
     text-align: center;
+    font-size: 14px;
 }
 
 .projs {
@@ -308,7 +315,7 @@ section#projetos {
     flex-direction: column;
     justify-content: space-between;
     width: 325px;
-    height: 500px;
+    height: 450px;
     background: #F9FAFB;
     padding: 0 12px 12px 0;
     border-radius: 8px;
@@ -324,7 +331,7 @@ section#projetos {
 
 .projeto h4 {
     margin: 12px 0 12px 0;
-    font-size: 22px;
+    font-size: 18px;
     padding-left: 12px;
 }
 
@@ -333,6 +340,7 @@ section#projetos {
     padding-left: 12px;
     color: #666666;
     line-height: 1.5;
+    font-size: 14px;
 }
 
 .tech {
@@ -346,13 +354,14 @@ section#projetos {
 }
 
 .repositorio i {
-    font-size: 26px;
+    font-size: 18px;
     color: #000;
     margin-right: 6px;
 }
 
 .repositorio span {
     color: #000;
+    font-size: 14px;
 }
 
 /* CONTATO */
@@ -389,7 +398,7 @@ textarea {
 #contato form button {
     background: linear-gradient(315deg, #742DF6 25%, #25A2EF);
     color: #FFF;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
     opacity: 0.9;
     border: none;
