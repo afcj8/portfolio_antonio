@@ -1,284 +1,93 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/imgs/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/responsive.css">
-    <title>Antônio Junior</title>
-</head>
+    <!-- Primary Meta Tags -->
+    <title>Antônio Junior — Desenvolvedor Backend</title>
+    <meta name="title" content="Antônio Junior — Desenvolvedor Backend" />
+    <meta
+      name="description"
+      content="Desenvolvedor Backend especializado em Python, FastAPI e Docker. Construindo APIs robustas e sistemas escaláveis na Koda Tecnologia. Natal, RN."
+    />
+    <meta
+      name="keywords"
+      content="desenvolvedor backend, python, fastapi, docker, postgresql, vue.js, api restful, natal, rio grande do norte, engenheiro de software"
+    />
+    <meta name="author" content="Antônio Junior" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://portfolio-antonio-ten.vercel.app/" />
 
-<body>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://portfolio-antonio-ten.vercel.app/" />
+    <meta property="og:title" content="Antônio Junior — Desenvolvedor Backend" />
+    <meta
+      property="og:description"
+      content="APIs robustas, modelos de dados coerentes e sistemas que funcionam em produção."
+    />
+    <meta
+      property="og:image"
+      content="https://portfolio-antonio-ten.vercel.app/og-image.jpg"
+    />
+    <meta property="og:locale" content="pt_BR" />
 
-    <main>
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://portfolio-antonio-ten.vercel.app/" />
+    <meta name="twitter:title" content="Antônio Junior — Desenvolvedor Backend" />
+    <meta
+      name="twitter:description"
+      content="APIs robustas, modelos de dados coerentes e sistemas que funcionam em produção."
+    />
 
-        <header>
-            <div class="logo">
-                <a href="#home">
-                    <span class="logo-home"> &lt;AJ&gt; </span>
-                </a>
-            </div>
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
-            <div class="menu-btn">
-                <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
-            </div>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
 
-            <div class="menu">
-                <nav class="nav-list">
-                    <ul>
-                        <li><a class="nave" href="#home">Home</a></li>
-                        <li><a class="nave" href="#sobre">Sobre</a></li>
-                        <li><a class="nave" href="#projetos">Projetos</a></li>
-                        <li><a class="nave" href="#contato">Contato</a></li>
-                        <li><a class="nave" onclick="mudarTema()">Mudar Tema</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-
-        <!-- HOME -->
-        <section id="home">
-            <div class="home-info">
-                <h2>Olá, sou <span class="nome">ANTÔNIO JUNIOR</span></h2>
-                <span class="funcao">Desenvolvedor de Sistemas</span>
-                <span class="resumo">
-                     <a href="/assets/Currículo - Antônio.docx.pdf" target="_blank">Veja meu currículo</a> para conhecer melhor meu perfil profissional.
-                </span>
-
-                <div class="contatos">
-                    <div class="redes">
-                        <a class="ig" href="https://instagram.com/antoniofcjr" target="_blank">
-                            <i class="fa-brands fa-square-instagram"></i>
-                        </a>
-                        <a class="linkedin" href="https://www.linkedin.com/in/ant%C3%B4niojunior8/" target="_blank">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                        <a class="git" href="https://github.com/afcj8" target="_blank">
-                            <i class="fa fa-github"></i>
-                        </a>
-                    </div>
-
-                    <button>
-                        <a href="#contato">Contate-me</a>
-                    </button>
-                </div>
-            </div>
-
-            <div class="perfil">
-                <img src="assets/imgs/perfil.jpg" alt="perfil">
-            </div>
-        </section>
-
-        <!-- SOBRE -->
-
-        <section id="sobre">
-            <h2>Sobre</h2>
-            <div class="sobre-info">
-                <span class="resumo">
-                    Possuo experiência em desenvolvimento Frontend com Vue.js e Backend com FastAPI. Tenho familiaridade com conteinerização usando Docker, modelagem de processos, bancos de dados e integração de APIs. Busco desenvolver soluções eficientes e escaláveis, aplicando metodologias ágeis. Abaixo, listo as tecnologias com as quais tenho conhecimento:
-                </span>
-
-                <div class="tecnologias">
-                    <div class="item">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                            alt="JavaScript">
-                        <h4>JavaScript</h4>
-                    </div>
-                    <div class="item">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
-                            alt="HTML5">
-                        <h4>HTML5</h4>
-                    </div>
-                    <div class="item">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
-                            alt="CSS3">
-                        <h4>CSS3</h4>
-                    </div>
-                    <div class="item">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/vuejs/vuejs-original.svg"
-                            alt="VueJS">
-                        <h4>VueJS</h4>
-                    </div>
-                    <div class="item">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-                            alt="NodeJS">
-                        <h4>NodeJS</h4>
-                    </div>
-                    <div class="item">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"
-                            alt="Csharp">
-                        <h4>Csharp</h4>
-                    </div>
-                    <div class="item">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
-                            alt="Java">
-                        <h4>Java</h4>
-                    </div>
-                    <div class="item">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-                            alt="Python">
-                        <h4>Python</h4>
-                    </div>
-                    <div class="item">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/fastapi/fastapi-original.svg"
-                            alt="FastAPI">
-                        <h4>FastAPI</h4>
-                    </div>
-                    <div class="item">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg"
-                            alt="Django">
-                        <h4>Django</h4>
-                    </div>
-                    <div class="item">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/vscode/vscode-original.svg"
-                            alt="VS Code">
-                        <h4>VS Code</h4>
-                    </div>
-                    <div class="item">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"
-                            alt="PostgreSQL">
-                        <h4>PostgreSQL</h4>
-                    </div>
-                    <div class="item">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg"
-                            alt="Postman">
-                        <h4>Postman</h4>
-                    </div>
-                    <div class="item">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
-                            alt="Git">
-                        <h4>Git</h4>
-                    </div>
-                    <div class="item">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
-                            alt="Docker">
-                        <h4>Docker</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- PROJETOS -->
-
-        <section id="projetos">
-            <h2>Projetos</h2>
-            <div class="projetos-info">
-                <div class="projetos-resumo">
-                    <span class="resumo">
-                        Mergulhe nos projetos desenvolvidos até o momento
-                    </span>
-                </div>
-                <div class="projs">
-                    <div class="projeto">
-                        <div class="logo-projeto">
-                            <img src="assets/imgs/ToDo.png" alt="image">
-                        </div>
-                        <h4 class="titulo">Lista de Tarefas</h4>
-                        <span class="descricao">
-                            Este é um projeto de lista de tarefas (todo list) feito com HTML, CSS e JavaScript. Ele
-                            permite que os usuários adicionem, removam e marquem tarefas como concluídas.
-                        </span>
-                        <span class="tech">
-                            Tech: HTML, CSS e JavaScript.
-                        </span>
-                        <div class="repositorio">
-                            <a href="https://github.com/afcj8/to_do" target="_blank">
-                                <i class="fa fa-github"></i>
-                                <span>Repositório</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="projeto">
-                        <div class="logo-projeto">
-                            <img src="assets/imgs/GAP.png" alt="image">
-                        </div>
-                        <h4 class="titulo">GAP</h4>
-                        <span class="descricao">
-                            O GAP é um sistema que ajuda a organizar e gerenciar acervos pessoais, permitindo cadastro
-                            de itens, empréstimos e devoluções, com uma interface intuitiva e fácil de usar.
-                        </span>
-                        <span class="tech">
-                            Tech: Django, Bootstrap, HTML e CSS.
-                        </span>
-                        <div class="repositorio">
-                            <a href="https://github.com/afcj8/gap" target="_blank">
-                                <i class="fa fa-github"></i>
-                                <span>Repositório</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="projeto">
-                        <div class="logo-projeto">
-                            <img src="assets/imgs/BuscaCEP.png" alt="image">
-                        </div>
-                        <h4 class="titulo">BuscaCEP</h4>
-                        <span class="descricao">
-                            BuscaCEP é uma aplicação que utiliza a API Fetch do JavaScript para obter detalhes de um CEP
-                            através do serviço ViaCEP do IBGE, retornando informações como rua, bairro, cidade e estado.
-                        </span>
-                        <span class="tech">
-                            Tech: HTML, CSS e JavaScript.
-                        </span>
-                        <div class="repositorio">
-                            <a href="https://github.com/afcj8/BuscaCEP" target="_blank">
-                                <i class="fa fa-github"></i>
-                                <span>Repositório</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-        <!-- CONTATO -->
-
-        <section id="contato">
-            <h2>Contato</h2>
-            <form action="https://formsubmit.co/contatoantoniojunior8@gmail.com" method="POST">
-                <input type="text" name="Nome" placeholder="Digite seu nome" required />
-                <input type="email" name="E-mail" placeholder="Digite seu e-mail" required />
-                <textarea cols="30" rows="10" name="Mensagem" placeholder="Digite sua mensagem"></textarea>
-                <button type="submit">Enviar</button>
-
-                <input type="hidden" name="_subject" value="Novo Contato!">
-                <input type="hidden" name="_next" value="https://portfolio-antonio-ten.vercel.app/">
-                <input type="text" name="_honey" style="display: none;">
-                <input type="hidden" name="_captcha" value="false">
-            </form>
-        </section>
-
-        <footer>
-            <div class="footer">
-                <div class="div-footer">
-                    <a href="#home">
-                        <span class="logo-footer"> &lt;AJ&gt; </span>
-                    </a>
-                </div>
-
-                <div class="redes-footer">
-                    <a href="https://instagram.com/antoniofcjr" target="_blank">
-                        <i class="fa-brands fa-square-instagram"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/ant%C3%B4niojunior8/" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/afcj8" target="_blank">
-                        <i class="fa fa-github"></i>
-                    </a>
-                </div>
-            </div>
-            <hr color="#666666" size="0.5px" />
-            <br>
-            Desenvolvido por Antônio Junior. Todos os direitos reservados.
-        </footer>
-
-    </main>
-
-</body>
-
-<script src="https://kit.fontawesome.com/8f26005892.js" crossorigin="anonymous"></script>
-<script src="/assets/script.js"></script>
-
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Antônio Junior",
+        "jobTitle": "Desenvolvedor Backend",
+        "url": "https://portfolio-antonio-ten.vercel.app/",
+        "email": "contatoantoniojunior8@gmail.com",
+        "sameAs": [
+          "https://github.com/afcj8",
+          "https://www.linkedin.com/in/antoniojunior8/",
+          "https://instagram.com/antoniofcjr"
+        ],
+        "knowsAbout": ["Python", "FastAPI", "Docker", "PostgreSQL", "Django", "Vue.js", "REST API"],
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "IFRN — Instituto Federal do Rio Grande do Norte"
+        },
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Koda Tecnologia Ltda"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Natal",
+          "addressRegion": "RN",
+          "addressCountry": "BR"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Ir para o conteúdo principal</a>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
