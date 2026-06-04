@@ -64,7 +64,6 @@ src/
 └── style.css        # Design system global
 public/
 ├── favicon.svg
-├── curriculo-antonio.pdf
 ├── robots.txt
 └── sitemap.xml
 ```
