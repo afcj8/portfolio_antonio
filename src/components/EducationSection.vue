@@ -38,7 +38,7 @@ const education = [
   {
     degree: 'Análise e Desenvolvimento de Sistemas',
     institution: 'IFRN — Instituto Federal do Rio Grande do Norte',
-    period: '2023 — 2025',
+    period: '2021 — 2025',
     status: 'Concluído',
   },
 ]
